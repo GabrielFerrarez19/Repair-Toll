@@ -1,0 +1,182 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <meta charset="UTF-8"/>
+        <title>Repair Toll</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <main class="mainlogobraca">
+                <div class="divlogo">
+                <img src="Imagens/logosf.png" class="logo">
+                </div>
+            </main>
+                <main class="mainbutton">
+                <div class="divbuttonlogin">
+                     <button class="login-button" >Login</button>
+                </div class="divbuttonlogin">
+                <div class="divbuttonlogin">
+                     <button class="inscrever-button">Inscrever-se</button>
+                </div>
+                <div class="divbuttonlogin">
+                    <button id="toggleButton" class="buttonBarraDeTarefas"> 
+                    <input type="checkbox" id="checkbox">
+                        <label for="checkbox" class="toggle">
+                        <div class="bars" id="bar1"></div>
+                        <div class="bars" id="bar2"></div>
+                        <div class="bars" id="bar3"></div>
+                        </label>
+                    </button>
+                </div>
+                </main>
+        </header>
+        <main class="corpo">
+            <div class="CorpoPrincipal">
+                   
+                <div class="divform">
+                    <form>
+                      <h1 class="h1regist"> Registro de Funcionário </h1>
+                      <label for="codigo">Código do Funcionário (RA):</label>
+                      <input class="input-style" type="text">
+                  
+                  
+                      <label for="nome">Funcionário:</label>
+                      <input class="input-style" type="text">
+                      <select class="selectfunc" name="area">
+                        <option value="select"> ... </option>
+                      </select>
+                  
+                      <label for="area">Área de Atuação:</label>
+                      <select class="selectarea" name="area">
+                        <option value="select"> Selecione </option>
+                          <option value="inf"> Informática </option>
+                          <option value="mec"> Mecânica </option>
+                      </select>
+                  
+                      <label for="inicio">Data e Hora de Início:</label>
+                      <input class="input-style" type="date" id="data" name="data" min="2000-01-01" max="2050-12-31">
+                      <input class="input-stylehora" type="time" id="hora" name="hora">
+                  
+                      <label for="fim">Data e Hora de Fim:</label>
+                      <input class="input-style" type="date" id="data" name="data" min="2000-01-01" max="2050-12-31">
+                      <input class="input-stylehora" type="time" id="hora" name="hora">
+                      <br><br>
+                  
+                      <div class="divbotao">
+                      <div class="divbotoes">
+                      <button class="botoes" type="reset">
+                        Cancelar
+                      </button>
+                      </div>
+                  
+                      <div class="divbotoes">
+                      <button class="botoes" type="submit">
+                        Salvar
+                      </button>
+                      </div>
+                      </div>
+                  
+                    </form>
+                    </div>
+
+            </div>
+            <div class="corpo2" id="corpo2">
+                <div id="taskbar">
+                    <ul>
+                        <div class="DivHome">
+                            <a href="../index.html" class="HomeButton"><img src="../Imagens/home.png" class="home">
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                        <div class="divlinks">
+                        <li><a href="../EmDesenvovimento/Index.html"><button class="linkBarraDeTarefas">Pesquisa de demanda.</button></a></li>
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                        <div class="divlinks">
+                        <li><a href="../EmDesenvovimento/Index.html"><button class="linkBarraDeTarefas">Tipos de serviços que podem ser feitos.</button></a></li>
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                        <div class="divlinks">
+                        <li><a href="../OrdemDeServico/ordemServico.html"><button class="linkBarraDeTarefas"> Ordem de Serviço.</button></li></a>
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                        <div class="divlinks">
+                            <li><a href="../registroServico/registroServico.html"><button class="linkBarraDeTarefas">Registro de Serviço.</button></li>
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                        <div class="divlinks">
+                            <li><a href="../RegistroDeFuncionario/index.html"><button class="linkBarraDeTarefas">Painel de administrador.</button></li>
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            </main>
+			
+			   <footer class="footerRodape">
+                <div class="footer-esquerda">
+                <br/>
+                <img src="Imagens/logosf.png" alt="foto" class="logosf"></img>
+    
+                <p class="footer-links">
+                    <a href="#">&nbsp;&nbsp;&nbsp;Fale conosco</a>
+                    |
+                    <a href="#">Integridade</a>
+                    |
+                    <a href="#">Para voce</a>
+                    |
+                    <a href="#">Noticias</a>
+                </p>
+    
+                <p class="footer-company-name">&nbsp;&nbsp;&nbsp;Copyright © 2023 <strong>Projeto</strong> Repair Tool</p>
+            </div>
+    
+            <div class="footer-centro">
+                <div>
+                    <i class="fa-map-marker"></i>
+                    <p><span>Rua Pimenta de Padua, Centro, 666</span>
+                        </p>
+                </div>
+    
+                <div>
+                    <i class="fa fa-telefone"></i>
+                    <p>+55 35 9224-8525</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="senaissparaiso@fiemg.com.br">repairtool@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-direita">
+                <p class="footer-company-sobre">
+                    <span>Repair Tool</span>
+                    <strong>A RepairTech desenvolveu o RepairTool, uma ferramenta de controle<br/> de demandas de manutenção baseada em nuvem.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> Com recursos abrangentes, permite que empresas gerenciem &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>eficientemente suas demandas de manutenção, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>otimizando a eficiência e reduzindo custos operacionais.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> A RepairTech é uma referência no setor de soluções de manutenção.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+                </p>
+                <div class="footer-icons">
+                    <div class="IconesRedes">
+                    <a href="https://www.facebook.com/" target="_blank"><img class="icones" src="Imagens/facebookicon.png"></a>
+                    </div>
+                    <div class="IconesRedes">
+                    <a href="https://www.instagram.com/" target="_blank"><img class="icones" src="Imagens/instagramicon.png"></a>
+                    </div>
+                    <div class="IconesRedes">
+                    <a href="https://web.whatsapp.com/" target="_blank"><img class="icones" src="Imagens/whatsappicon.png"></a>
+                    </div>
+                </div>
+            </div>
+            </footer>
+            
+        <script src="script.js"></script>
+    </body>
+</html>

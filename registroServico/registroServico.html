@@ -1,0 +1,233 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <meta charset="UTF-8"/>
+        <title>Repair Toll</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <main class="mainlogobraca">
+                <div class="divlogo">
+                <img src="Imagens/logosf.png" class="logo">
+                </div>
+            </main>
+                <main class="mainbutton">
+                <div class="divbuttonlogin">
+                     <button class="login-button" >Login</button>
+                </div class="divbuttonlogin">
+                <div class="divbuttonlogin">
+                     <button class="inscrever-button">Inscrever-se</button>
+                </div>
+                <div class="divbuttonlogin">
+                    <button id="toggleButton" class="buttonBarraDeTarefas"> 
+                    <input type="checkbox" id="checkbox">
+                        <label for="checkbox" class="toggle">
+                        <div class="bars" id="bar1"></div>
+                        <div class="bars" id="bar2"></div>
+                        <div class="bars" id="bar3"></div>
+                        </label>
+                    </button>
+                </div>
+                </main>
+        </header>
+        <main class="corpo">
+            <div class="CorpoPrincipal">
+                
+                <div class="divh1">
+                    <h1>Registro de Serviço</h1>
+                </div>
+        
+                <div class="divform">
+                    <form>
+                        <div class="div2">
+                            <div class="div1">
+                        <label for="buscaporCodigo">Busca po Código:</label>
+                        <input type="text" name="buscaporCodigo"  class="style-input" required>
+                            </div>
+                            <div class="div1">
+                        <label for="Descricao">Descição do Serviço Realizado:</label>
+                        <input type="text" name="descricao"  class="style-input" required>
+                            </div>
+                        </div>
+        
+                        <div class="div2">
+                            <div class="div1">
+                        <label for="servico">Servico:</label>
+                        <input type="text" name="servico"  class="style-input" required>
+                            </div>
+                            <div class="div1">
+                        <label for="material">Material:</label>
+                        <input type="text" name="material"  class="style-input" required>
+                        </div>
+                        </div>
+        
+                        <div class="div2">
+                            <div class="div1">
+                        <label for="quantidade">Quantidade:</label>
+                        <input type="text" name="quantidade"  class="style-input" required>
+                            </div>
+                            <div class="div1">
+                        <label for="unidade">Unidade:</label>
+                        <input type="text" name="unidade"  class="style-input" required>
+                        </div>
+                        </div>
+        
+                        <div class="div2">
+                            <div class="div1">
+                        <label for="vamorM">Valor material:</label>
+                        <input type="text" name="valorM"  class="style-input" required>
+                            </div>
+                            <div class="div1">
+                        <label for="custoE">Custo Extra:</label>
+                        <input type="text" name="custoE"  class="style-input" required>
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <div class="div1">
+                        <label for="ocorrencia">Ocorrência:</label>
+                        <input type="text" name="ocorrencia"  class="style-input" required>
+                            </div>
+                            <div class="div1">
+                        <label for="causa">Causa:</label>
+                        <input type="text" name="causa"  class="style-input" required>
+                        </div>
+                        </div>
+                        <div class="div2">
+                            <div class="div1">
+                        <label for="horaInicio">Hora de Início:</label>
+                        <input type="time" id="horaInicio"  class="input-stylehora" name="horaInicio">
+                            </div>
+                            <div class="div1">
+                        <label for="horaTermino">Hora de Términio:</label>
+                        <input type="time" id="horaTermino"  class="input-stylehora" name="horaTermino">
+                            </div>
+                        </div>
+                        <div class="div2">
+                            <div class="div1">
+                        <label for="financeiro">Índice Financeiro:</label>
+                        <input type="text" name="financeiro"  class="style-input" required>
+                            </div>
+                            <div class="div1">
+                        <label for="fornecedor">Fornecedor:</label>
+                        <input type="text" name="fornecedor"  class="style-input" required>
+                        </div>
+                        </div>
+                        <br><br>
+                    <div class="divbotao">
+                    <div class="divbotoes">
+                        <button class="botoes" type="submit">
+                            Salvar
+                        </button>
+                    </div>
+                    <div class="divbotoes">
+                        <button class="botoes" type="reset">
+                            Cancelar
+                        </button>
+                    </div>
+                    </div>
+                    
+                
+                    </form>
+                </div>
+                
+            </div>
+            <div class="corpo2" id="corpo2">
+                <div id="taskbar">
+                    <ul>
+                        <div class="DivHome">
+                            <a href="../index.html" class="HomeButton"><img src="../Imagens/home.png" class="home">
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                        <div class="divlinks">
+                        <li><a href="../EmDesenvovimento/Index.html"><button class="linkBarraDeTarefas">Pesquisa de demanda.</button></a></li>
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                        <div class="divlinks">
+                        <li><a href="../EmDesenvovimento/Index.html"><button class="linkBarraDeTarefas">Tipos de serviços que podem ser feitos.</button></a></li>
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                        <div class="divlinks">
+                        <li><a href="../OrdemDeServico/ordemServico.html"><button class="linkBarraDeTarefas"> Ordem de Serviço.</button></li></a>
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                        <div class="divlinks">
+                            <li><a href="../registroServico/registroServico.html"><button class="linkBarraDeTarefas">Registro de Serviço.</button></li>
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                        <div class="divlinks">
+                            <li><a href="../RegistroDeFuncionario/index.html"><button class="linkBarraDeTarefas">Painel de administrador.</button></li>
+                        </div>
+                        <div class="Divlinhas">
+                            <img src="Imagens/linha.png" class="linha">
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            </main>
+			
+			<footer class="footerRodape">
+                <div class="footer-esquerda">
+                <br/>
+                <img src="Imagens/logosf.png" alt="foto" class="logosf"></img>
+    
+                <p class="footer-links">
+                    <a href="#">&nbsp;&nbsp;&nbsp;Fale conosco</a>
+                    |
+                    <a href="#">Integridade</a>
+                    |
+                    <a href="#">Para voce</a>
+                    |
+                    <a href="#">Noticias</a>
+                </p>
+    
+                <p class="footer-company-name">&nbsp;&nbsp;&nbsp;Copyright © 2023 <strong>Projeto</strong> Repair Tool</p>
+            </div>
+    
+            <div class="footer-centro">
+                <div>
+                    <i class="fa-map-marker"></i>
+                    <p><span>Rua Pimenta de Padua, Centro, 666</span>
+                        </p>
+                </div>
+    
+                <div>
+                    <i class="fa fa-telefone"></i>
+                    <p>+55 35 9224-8525</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="senaissparaiso@fiemg.com.br">repairtool@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-direita">
+                <p class="footer-company-sobre">
+                    <span>Repair Tool</span>
+                    <strong>A RepairTech desenvolveu o RepairTool, uma ferramenta de controle<br/> de demandas de manutenção baseada em nuvem.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> Com recursos abrangentes, permite que empresas gerenciem &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>eficientemente suas demandas de manutenção, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>otimizando a eficiência e reduzindo custos operacionais.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> A RepairTech é uma referência no setor de soluções de manutenção.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+                </p>
+                <div class="footer-icons">
+                    <div class="IconesRedes">
+                    <a href="https://www.facebook.com/" target="_blank"><img class="icones" src="Imagens/facebookicon.png"></a>
+                    </div>
+                    <div class="IconesRedes">
+                    <a href="https://www.instagram.com/" target="_blank"><img class="icones" src="Imagens/instagramicon.png"></a>
+                    </div>
+                    <div class="IconesRedes">
+                    <a href="https://web.whatsapp.com/" target="_blank"><img class="icones" src="Imagens/whatsappicon.png"></a>
+                    </div>
+                </div>
+            </div>
+            </footer>
+            
+        <script src="script.js"></script>
+    </body>
+</html>
